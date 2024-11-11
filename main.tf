@@ -408,3 +408,7 @@ resource "aws_instance" "Demo_Proj_Web_instance" {
       Name = "Demo-Proj-Web-instance-1"
     }
 }
+
+resource "aws_vpc" "example_1" {
+  cidr_block = "11.0.0.0/16"
+}
